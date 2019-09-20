@@ -1,8 +1,8 @@
 /* Typography */
 
 html {
-	font-family: 'Roboto', "Helvetica Neue", Arial, Helvetica, sans-serif;
-	font-weight: 400;
+	font-family: 'Montserrat', "Helvetica Neue", Arial, Helvetica, sans-serif;
+	font-weight: 300;
 }
 
 @media (min-width: 768px) {
@@ -39,9 +39,7 @@ main {
 }
 
 main > .intro {
-	font-family: 'Roboto', "Helvetica Neue", Arial, Helvetica, sans-serif;
 	font-size: 3em;
-	font-weight: 600;
 }
 
 main > .tagline {
