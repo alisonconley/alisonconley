@@ -87,7 +87,7 @@ p.title{
 	text-align: left;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 700px) {
 	.skills{
 		margin: 0 auto;
 		text-align: left;
