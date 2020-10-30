@@ -83,10 +83,18 @@ p.title{
 }
 
 .skills{
-	margin: 0 auto;
+	margin: 0 auto 30px auto;
 	text-align: left;
-	display:flex;
-	justify-content: start;
+}
+
+@media (min-width: 768px) {
+	.skills{
+		margin: 0 auto;
+		text-align: left;
+		display:flex;
+		justify-content: start;
+	}
+
 }
 
 .skills p{
