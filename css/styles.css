@@ -3,6 +3,7 @@
 html {
 	font-family: 'Montserrat', "Helvetica Neue", Arial, Helvetica, sans-serif;
 	font-weight: 300;
+	width: 100%;
 }
 
 @media (min-width: 768px) {
@@ -27,6 +28,7 @@ html {
 body{
 	background: #E8EAF6;
 	color: #528;
+	width: 100%;
 }
 
 main {
@@ -34,7 +36,7 @@ main {
 	flex-direction: column;
 	min-height: 100vh;
 	justify-content: center;
-	max-width: 700px;
+	max-width: 740px;
 	padding: 30px;
 	margin: 0 auto
 }
@@ -83,5 +85,28 @@ p.title{
 .skills{
 	margin: 0 auto;
 	text-align: left;
-	max-width: 340px;
+	display:flex;
+	justify-content: start;
+}
+
+.skills p{
+	text-align: left;
+}
+
+.skills div{
+	padding: 0 25px;
+}
+
+h1, h2, h3,h4, h5 h6 {
+	font-weight:700;
+	margin-bottom: 20px;
+}
+
+ul{
+	margin: 0 0 40px 20px;
+}
+
+ul li{
+	margin: 0 0 15px 0;
+	padding: 0;
 }
