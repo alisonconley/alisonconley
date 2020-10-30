@@ -23,42 +23,65 @@ html {
 	}
 }
 
-.icons-social i {
-	font-size: 3em;
-}
-
 /* Custom Styles */
+body{
+	background: #E8EAF6;
+	color: #528;
+}
 
 main {
 	display: flex;
 	flex-direction: column;
 	min-height: 100vh;
 	justify-content: center;
-	padding: 0 30px;
-	text-align: center;
+	max-width: 700px;
+	padding: 30px;
+	margin: 0 auto
 }
 
 main > .intro {
-	font-size: 3em;
+	font-size: 2.5em;
+	text-align: center;
 }
 
 main > .tagline {
-	font-size: 1.5rem;
+	font-size: 1.2rem;
 	margin: 1.5rem 0;
 	font-weight: 100;
+	text-align: center;
 }
 
 .icons-social i {
 	padding: 10px;
+	font-size: 2rem;
 }
 
-.devto {
-	margin-bottom: -0.20rem;
+
+/* Theme */
+
+.icons-social{
+	margin-bottom: 60px;
 }
 
-.devto svg {
-	margin-bottom: -0.20rem;
-	margin-left: 0.675rem;;
-	width: 2.65rem;
-	height: 2.65rem;
+.icons-social a {
+	color: #528;
+}
+
+.icons-social a svg path{
+	fill: #528;
+}
+
+a{
+	color: #528;
+}
+
+p.title{
+	margin-bottom: 5px;
+	font-weight:bold;
+}
+
+.skills{
+	margin: 0 auto;
+	text-align: left;
+	max-width: 340px;
 }
